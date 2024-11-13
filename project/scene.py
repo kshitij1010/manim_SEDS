@@ -1,9 +1,4 @@
 from manim import *
-import jax
-import jax.numpy as jnp
-
-def function(x):
-    return jnp.sin(x)
 
 class CreateCircle(Scene):
     def construct(self):
